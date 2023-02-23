@@ -1,0 +1,25 @@
+nav {
+    background: #fff; 
+    min-height: 110px;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.btn {
+    background: #000;
+    border: #000 1px; 
+    border-radius: 100px; 
+    color: #fff; 
+    min-height: 55px; 
+    width: 130px; 
+    height: auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
