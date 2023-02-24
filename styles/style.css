@@ -23,3 +23,9 @@ nav {
     align-items: center; 
     justify-content: center;
 }
+
+.offcanvas-collapse.open {
+	visibility: visible;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
