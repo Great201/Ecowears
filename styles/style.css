@@ -11,21 +11,105 @@ nav {
     color: #000;
 }
 
-.btn {
-    background: #000;
-    border: #000 1px; 
-    border-radius: 100px; 
-    color: #fff; 
-    min-height: 55px; 
-    width: 130px; 
-    height: auto; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
+.btn.nav-btn {
+    border: #000 solid 1px;
+	display: inline-block;
+    padding: 1.625rem ;
+    border-radius: 32px;
+    background-color: #000;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    transition: all 0.2s;
+}
+
+.btn.hero-btn {
+	border: #000 solid 1px;
+	display: inline-block;
+    padding: 1.625rem ;
+    border-radius: 32px;
+    background-color: #000;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    transition: all 0.2s;
+}
+
+.header {
+	padding-top: 7.05rem;
+	text-align: center;
+}
+
+.offcanvas-collapse {
+	position: fixed;
+	top: 7.05rem; /* adjusts the height between the top of the page and the offcanvas menu */
+	bottom: 0;
+	left: 100%;
+	width: 100%;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	overflow-y: auto;
+	visibility: hidden;
+	background-color: #fff;
+	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
 
 .offcanvas-collapse.open {
 	visibility: visible;
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
+}
+
+/* Min-width 992px */
+@media (min-width: 992px) {
+
+	/* Navigation */
+	.navbar.top-nav-collapse {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		background-color: #fff;
+		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
+	}
+
+	.offcanvas-collapse {
+		position: static;
+		top: auto;
+		bottom: auto;
+		left: auto;
+		width: auto;
+		padding-right: 0;
+		padding-left: 0;
+		background-color: transparent;
+		overflow-y: visible;
+		visibility: visible;
+	}
+
+	.offcanvas-collapse.open {
+		-webkit-transform: none;
+		transform: none;
+	}
+
+	.navbar .navbar-nav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	
+	.navbar .nav-item .nav-link {
+		padding-right: 0.625rem;
+		padding-left: 0.625rem;
+	}
+
+	.navbar .dropdown-menu {
+		margin-top: 0.25rem;
+		box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.08);
+	}
+
+	.navbar .dropdown-divider {
+		width: 90%;
+	}
+	/* end of navigation */
 }
