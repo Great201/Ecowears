@@ -47,7 +47,7 @@ nav {
 	top: 7.05rem; /* adjusts the height between the top of the page and the offcanvas menu */
 	bottom: 0;
 	left: 100%;
-	width: 100%;
+	width: 400px;
 	padding-right: 1rem;
 	padding-left: 1rem;
 	overflow-y: auto;
