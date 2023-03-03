@@ -1,12 +1,15 @@
 @import url("https://fonts.cdnfonts.com/css/proxima-nova-2");
 @import url("https://fonts.cdnfonts.com/css/roboto");
 
+<<<<<<< HEAD
 @media screen and (max-width: 1067px){
   .showcase-img:first-child{
     margin-top: 5%;
   }
 }
 
+=======
+>>>>>>> f7b9f0ec794c85e4146ec5da81a590fe36e63053
 p {
   color: #000;
   text-align: left;
@@ -119,7 +122,10 @@ header p {
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> f7b9f0ec794c85e4146ec5da81a590fe36e63053
 .showcase .col-md-4:first-child {
   margin-right: -15px;
 }
@@ -212,16 +218,27 @@ header p {
   font-size: 24px;
 }
 
+<<<<<<< HEAD
 .card{
+=======
+.card-body {
+>>>>>>> f7b9f0ec794c85e4146ec5da81a590fe36e63053
   padding: 30px;
   text-align: center;
 }
 
+<<<<<<< HEAD
 .card img {
   max-width: 100%;
   
   margin-bottom: 20px;
   margin: auto;
+=======
+.card-body img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+>>>>>>> f7b9f0ec794c85e4146ec5da81a590fe36e63053
 }
 
 .card-body h4 {
@@ -229,6 +246,7 @@ header p {
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .card p {
   font-size: 18px;
   margin-bottom: 0;
@@ -257,6 +275,12 @@ header p {
 
 .form-button{
   margin-bottom: 5%;
+=======
+.card-body p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 0;
+>>>>>>> f7b9f0ec794c85e4146ec5da81a590fe36e63053
 }
 
 .footer {
