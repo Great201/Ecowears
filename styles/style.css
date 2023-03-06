@@ -198,6 +198,8 @@ header p {
 .card {
   border: none;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: left;
 }
 
 .card-header {
@@ -212,16 +214,15 @@ header p {
   font-size: 24px;
 }
 
-.card{
-  padding: 30px;
-  text-align: center;
-}
-
 .card img {
   max-width: 100%;
-  
   margin-bottom: 20px;
   margin: auto;
+  padding-bottom: 15px;
+}
+
+.card-text {
+  text-align: left !important;
 }
 
 .card-body h4 {
@@ -234,6 +235,7 @@ header p {
   margin-bottom: 0;
   text-align: center;
 }
+
 .brand-div{
   margin: 5%;
 }
@@ -242,21 +244,12 @@ header p {
   margin: 5%;
 }
 
-.get-in-touch-div{
-  height: 40rem;
-  width: 40rem;
-  background-color:#E1EEDD;
-  padding: 9%;
-  margin-bottom: 5%;
-}
-
-.for{
-  position: relative;
-  left: 0.5rem; 
-}
-
 .form-button{
   margin-bottom: 5%;
+}
+
+.contact {
+  background: #e3e3e3;
 }
 
 .footer {

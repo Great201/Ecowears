@@ -45,34 +45,6 @@
     .on('mouseenter mouseleave','.dropdown',toggleDropdown)
     .on('click', '.dropdown-menu a', toggleDropdown);
 
-
-    /* Details Lightbox - Magnific Popup */
-    $('.popup-with-move-anim').magnificPopup({
-		type: 'inline',
-		fixedContentPos: true,
-		fixedBgPos: true,
-		overflowY: 'auto',
-		closeBtnInside: true,
-		preloader: false,
-		midClick: true,
-		removalDelay: 300,
-		mainClass: 'my-mfp-slide-bottom'
-    });
-    
-
-    /* Text Slider - Swiper */
-	var textSlider = new Swiper('.text-slider', {
-        autoplay: {
-            delay: 4000,
-            disableOnInteraction: false
-		},
-        loop: true,
-        navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev'
-		}
-    });
-
     
     /* Move Form Fields Label When User Types */
     // for input and textarea fields
