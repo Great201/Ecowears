@@ -1,6 +1,12 @@
 @import url("https://fonts.cdnfonts.com/css/proxima-nova-2");
 @import url("https://fonts.cdnfonts.com/css/roboto");
 
+@media screen and (max-width: 1067px){
+  .showcase-img:first-child{
+    margin-top: 5%;
+  }
+}
+
 p {
   color: #000;
   text-align: left;
@@ -113,6 +119,7 @@ header p {
   margin-bottom: 20px;
 }
 
+
 .showcase .col-md-4:first-child {
   margin-right: -15px;
 }
@@ -205,15 +212,16 @@ header p {
   font-size: 24px;
 }
 
-.card-body {
+.card{
   padding: 30px;
   text-align: center;
 }
 
-.card-body img {
+.card img {
   max-width: 100%;
-  height: auto;
+  
   margin-bottom: 20px;
+  margin: auto;
 }
 
 .card-body h4 {
@@ -221,10 +229,34 @@ header p {
   margin-bottom: 20px;
 }
 
-.card-body p {
+.card p {
   font-size: 18px;
-  line-height: 28px;
   margin-bottom: 0;
+  text-align: center;
+}
+.brand-div{
+  margin: 5%;
+}
+
+.testimonial-div{
+  margin: 5%;
+}
+
+.get-in-touch-div{
+  height: 40rem;
+  width: 40rem;
+  background-color:#E1EEDD;
+  padding: 9%;
+  margin-bottom: 5%;
+}
+
+.for{
+  position: relative;
+  left: 0.5rem; 
+}
+
+.form-button{
+  margin-bottom: 5%;
 }
 
 .footer {
